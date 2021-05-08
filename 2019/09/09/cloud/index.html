@@ -24,7 +24,7 @@
 <link rel="shortcut icon" href="/images/favicon.png">
 
 
-<title>Hexo - </title>
+<title>cloud - Hexo</title>
 
 <meta name="keywords" content>
 
@@ -112,21 +112,9 @@
 
             <div class="page-title">
     <ul>
-        <li class="active">
-            <a href="/" data-name="Recent Posts">Recent Posts</a>
-        </li>
+        <li><a href="/">Recent Posts</a></li>
         
-        <li class>
-            <a href="/categories/tech-notes" data-name="技术">技术</a>
-        </li>
         
-        <li class>
-            <a href="/categories/humanities" data-name="人文">人文</a>
-        </li>
-        
-        <li class>
-            <a href="/categories/others" data-name="其他">其他</a>
-        </li>
         
         <li class="page-search">
     <form id="search" class="search-form">
@@ -138,209 +126,76 @@
     </ul>
 </div>
 <div class="main-inner">
-    
-        
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <div class="post-header">
+            <div class="post-author clearfix">
+                <a class="avatar fleft" href="https://shuoit.net" target="_blank">
+                    <img width="48" src="/images/favicon.png" alt="avatar">
+                </a>
+                <p><span class="label">Author</span>
+                    <a href="https://shuoit.net" target="_blank">纠结伦</a>
+                    <span title="Last edited at&nbsp;2019-09-09">2019-09-09</span>
+                </p>
+                <p>一个搬🧱的劳斯基😁️️</p>
+            </div>
+            <h2 class="post-title">cloud</h2>
+            <div class="post-meta">
+                emm... 457 words in the article |
+                you are the&nbsp;<span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>th friend who reading now
+            </div>
+        </div>
+        <div class="post-content markdown-body">
+            <h1 id="出处how2j-cn"><a href="#出处how2j-cn" class="headerlink" title="出处how2j.cn"></a>出处<a href="http://how2j.cn/k/springcloud/springcloud-intro/2035.html" target="_blank" rel="noopener">how2j.cn</a></h1><h3 id="关键思路"><a href="#关键思路" class="headerlink" title="关键思路"></a>关键思路</h3><ol>
+<li>哪些微服务是如何彼此调用的？ sleuth 服务链路追踪</li>
+<li>如何在微服务间共享配置信息？配置服务 Config Server</li>
+<li>如何让配置信息在多个微服务之间自动刷新？ RabbitMQ 总线 Bus</li>
+<li>如果数据微服务集群都不能使用了， 视图微服务如何去处理? 断路器 Hystrix</li>
+<li>视图微服务的断路器什么时候开启了？什么时候关闭了？ 断路器监控 Hystrix Dashboard</li>
+<li>如果视图微服务本身是个集群，那么如何进行对他们进行聚合监控？ 断路器聚合监控 Turbine Hystrix Dashboard</li>
+<li>如何不暴露微服务名称，并提供服务？ Zuul 网关</li>
+</ol>
+<h3 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h3><ol>
+<li>配置中心访问本地</li>
+<li>访问本地，更改配置，是否重启</li>
+<li>搭建本地git服务器</li>
+</ol>
+<h3 id="rabbitmq"><a href="#rabbitmq" class="headerlink" title="rabbitmq"></a>rabbitmq</h3><ol>
+<li>dokcer pull docker pull rabbitmq:management</li>
+<li>docker run -d –hostname my-rabbit -p 5672:5672 -p 15672:15672 容器id</li>
+</ol>
+
             
-<article class="post">
-    
-    <div class="post-header">
-        <div class="post-meta">
-            <a href="https://shuoit.net" target="_blank">
-                <strong>纠结伦</strong>
+                
+
+            
+        </div>
+        <div class="post-tool">
+            <a class="btn-thumbs-up" href="javascript:void(0);" data-cid="52" title="95">
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i> Donate
             </a>
-            <em>·</em>2019-09-11
-            
         </div>
-        <a class="post-title" href="/2019/09/11/design/" target="_blank" title="design">design</a>
-        <div class="post-meta">
-            <a href="/tags" target="_blank"><i class="fa fa-tags"></i></a>
-            
-                <em>·</em>
-                <a href="http://yoursite.com/tags/设计模式/" target="_blank">设计模式</a>
-            
-        </div>
-    </div>
-    <div class="post-desc">
-        design
-    </div>
-</article>
-
-
-
         
+        <div class="post-tags">Tags：
             
-<article class="post">
-    
-    <div class="post-header">
-        <div class="post-meta">
-            <a href="https://shuoit.net" target="_blank">
-                <strong>纠结伦</strong>
-            </a>
-            <em>·</em>2019-09-10
+            <a href="/tags/Spring-Cloud/">Spring Cloud</a>
             
         </div>
-        <a class="post-title" href="/2019/09/10/caputre/" target="_blank" title="caputre">caputre</a>
-        <div class="post-meta">
-            <a href="/tags" target="_blank"><i class="fa fa-tags"></i></a>
-            
-                <em>·</em>
-                <a href="http://yoursite.com/tags/攻克系列/" target="_blank">攻克系列</a>
-            
-        </div>
-    </div>
-    <div class="post-desc">
-        caputre
-    </div>
-</article>
-
-
-
         
-            
-<article class="post">
+    </article>
     
-    <div class="post-header">
-        <div class="post-meta">
-            <a href="https://shuoit.net" target="_blank">
-                <strong>纠结伦</strong>
-            </a>
-            <em>·</em>2019-09-09
-            
-        </div>
-        <a class="post-title" href="/2019/09/09/cloud/" target="_blank" title="cloud">cloud</a>
-        <div class="post-meta">
-            <a href="/tags" target="_blank"><i class="fa fa-tags"></i></a>
-            
-                <em>·</em>
-                <a href="http://yoursite.com/tags/Spring-Cloud/" target="_blank">Spring Cloud</a>
-            
-        </div>
-    </div>
-    <div class="post-desc">
-        cloud
-    </div>
-</article>
-
-
-
-        
-            
-<article class="post">
+        <p style="text-align: center">This article just represents my own viewpoint. If there is something wrong, please correct me.</p>
     
-    <div class="post-header">
-        <div class="post-meta">
-            <a href="https://shuoit.net" target="_blank">
-                <strong>纠结伦</strong>
-            </a>
-            <em>·</em>2019-09-03
-            
-        </div>
-        <a class="post-title" href="/2019/09/03/scenery/" target="_blank" title="scenery">scenery</a>
-        <div class="post-meta">
-            <a href="/tags" target="_blank"><i class="fa fa-tags"></i></a>
-            
-                <em>·</em>
-                <a href="http://yoursite.com/tags/风景/" target="_blank">风景</a>
-            
-        </div>
-    </div>
-    <div class="post-desc">
-        scenery
-    </div>
-</article>
-
-
-
-        
-            
-<article class="post">
     
-    <div class="post-header">
-        <div class="post-meta">
-            <a href="https://shuoit.net" target="_blank">
-                <strong>纠结伦</strong>
-            </a>
-            <em>·</em>2019-09-03
-            
-        </div>
-        <a class="post-title" href="/2019/09/03/keyword/" target="_blank" title="keyword">keyword</a>
-        <div class="post-meta">
-            <a href="/tags" target="_blank"><i class="fa fa-tags"></i></a>
-            
-                <em>·</em>
-                <a href="http://yoursite.com/tags/关键字/" target="_blank">关键字</a>
-            
-        </div>
-    </div>
-    <div class="post-desc">
-        keyword
-    </div>
-</article>
-
-
-
-        
-            
-<article class="post">
     
-    <div class="post-header">
-        <div class="post-meta">
-            <a href="https://shuoit.net" target="_blank">
-                <strong>纠结伦</strong>
-            </a>
-            <em>·</em>2019-09-03
-            
-        </div>
-        <a class="post-title" href="/2019/09/03/learnFlink/" target="_blank" title="learnFlink">learnFlink</a>
-        <div class="post-meta">
-            <a href="/tags" target="_blank"><i class="fa fa-tags"></i></a>
-            
-                <em>·</em>
-                <a href="http://yoursite.com/tags/Flink/" target="_blank">Flink</a>
-            
-        </div>
-    </div>
-    <div class="post-desc">
-        learnFlink
-    </div>
-</article>
 
-
-
-        
-            
-<article class="post">
-    
-    <div class="post-header">
-        <div class="post-meta">
-            <a href="https://shuoit.net" target="_blank">
-                <strong>纠结伦</strong>
-            </a>
-            <em>·</em>2019-08-28
-            
-        </div>
-        <a class="post-title" href="/2019/08/28/hello-world/" target="_blank" title="Hello World">Hello World</a>
-        <div class="post-meta">
-            <a href="/tags" target="_blank"><i class="fa fa-tags"></i></a>
-            
-        </div>
-    </div>
-    <div class="post-desc">
-        Hello World
-    </div>
-</article>
-
-
-
-        
-    
 </div>
+<script src="/js/busuanzi.pure.mini.js"></script>
 
 
         </div><!-- end #main-->
     </div><!-- end #body -->
     <footer class="footer">
-    <div class="footer-inner" style="text-align: left">
+    <div class="footer-inner" style="text-align: center">
         <p>
             <a href="/about" title="About">About</a>&nbsp;&nbsp<em>·</em>&nbsp;&nbsp
             <!-- 自定义链接 -->
